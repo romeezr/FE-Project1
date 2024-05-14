@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo Website</title>
+
+    <link rel="shortcut icon" href="images/favicon-16.png" type="image/png">
+
+    <link rel="stylesheet" href="font-awesome/css/fontawesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+
+
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+
+</head>
+<body>
+
+   <div class="main-wrapper">
+
+        <header>
+
+            <div class="top-bar"></div>
+
+            <div class="brandding">
+
+                <div class="container-fluid">
+
+                    <div class="row">
+
+                        <div class="col">
+                            <a href="#" class="logo">
+                                Demo <span>Website</span>
+                            </a>
+                        </div>
+
+                        <div class="col">
+                            <a href="#" class="icon">
+                                <span>
+                                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                </span>
+                                <small>Location</small>
+                            </a>
+                        </div>
+
+                        <div class="col">
+                            <a href="#" class="icon">
+                                <span>
+                                    <i class="fa fa-phone" aria-hidden="true"></i>
+                                </span>
+                                <small>Call: +01 123456789</small>
+                            </a>
+                        </div>
+
+                        <div class="col">
+                            <a href="#" class="icon">
+                                <span>
+                                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                                </span>
+                                <small>demo@gmail.com</small>
+                            </a>
+                        </div>
+
+                        <div class="col">
+
+                            <div class="social-icons">
+
+                                <a href="#" class="link">
+                                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                                </a>
+
+                                <a href="#" class="link">
+                                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                                </a>
+
+                                <a href="#" class="link">
+                                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                </a>
+
+                                <a href="#" class="link">
+                                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="menu">
+
+                <div class="container">
+    
+                    <nav class="navbar navbar-expand-lg py-0">
+                        
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
+                      
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                          
+                            <ul class="navbar-nav mx-auto">
+
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="service.html">Service</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">About</a>
+                                </li>
+                            
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Portfolio</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Contact Us</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#" data-toggle="modal" data-target="#loginModel">
+                                        <i class="fa fa-user-o" aria-hidden="true"></i>
+                                        Login
+                                    </a>
+                                </li>
+
+                                <li class="nav-item" id="searchBttn">
+                                    <a class="nav-link" href="#">
+                                        <i class="fa fa-search" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                        
+                    </nav>
+                    <form id="searchForm" method="post">
+
+                        <div class="form-row">
+
+                            <div class="col col-11">
+                                <input class="form-control form-control-sm" type="search" placeholder="Search" aria-label="Search">
+                            </div>
+
+                            <div class="col search-control-buttons">
+
+                                <button type="reset" class="cancel" id="closeBttn">
+                                    <i class="fa fa-close text-danger" aria-hidden="true"></i>
+                                </button><button type="submit" class="ok">
+                                    <i class="fa fa-check text-primary" aria-hidden="true"></i>
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                        <!--button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button-->
+                    </form>
+    
+                </div>
+
+            </div>
+
+            <div class="clearfix"></div>
+
+            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+
+                  <div class="carousel-item active">
+                    <img src="images/slider-bg.jpg" class="d-block w-100" alt="...">
+
+                    <div class="carousel-caption d-none d-md-block slide_content">
+                      <h3>We Build<br>The Things Architechs<br>Deams Up</h3>
+                      <p>
+                        <a class="btn btn-light" href="#" role="button">Read More</a>
+                        <a class="btn btn-light" href="#" role="button">Contact Us</a>
+                      </p>
+                    </div>
+
+                  </div>
+
+                  <!--div class="carousel-item">
+                    <img src="..." class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Second slide label</h5>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                  </div>
+
+                  <div class="carousel-item">
+                    <img src="..." class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Third slide label</h5>
+                      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    </div>
+                  </div-->
+
+                </div>
+
+                <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+
+        </header>
+
+        <main>
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col my-5 pt-5">
+                        <h2 class="heading">Welcome to <span>Demo Website</span></h2>
+ML, CSS, and JS. Quickly prototype your ideas or build your entire app with our Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful plugins built on jQuery.</p>
+                        <p>Bootstrap is an open source toolkit for developing with HT
+
+                        <p><a class="btn btn-warning" href="#" role="button">Read More</a></p>
+                    </div>
+
+                    <div class="col my-5 pl-5">
+                        <img class="ml-5" src="images/about-img.png" width="350px" alt="About demo website">
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="banner_content">
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            
+                            <h2>Our Work Portfolio</h2>
+
+                            <ul id="serviceTabs" class="nav justify-content-center">
+
+                                <li class="nav-item active-tab">
+                                  <a class="nav-link active" href="#" data-service="0">All</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#" data-service="1">Decorative</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#" data-service="2">Facades</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#" data-service="3">Perforated</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#" data-service="4">Railings</a>
+                                </li>
+
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="service_content">
+
+                <div class="container">
+
+                    <div class="row">
+                        <div class="col">
+                            <h2 class="heading">Our <span>Services</span></h2>
+                        </div>
+                    </div>
+
+                    <div class="row">
+
+                        <div class="col card service_block" data-service_block="1">
+                            <p>
+                                <img src="images/s1.png" alt="Home Welding">
+                            </p>
+                            <h3>Home Welding</h3>
+                            <p>Curious which components explicitly require jQuery, our JS, and Popper.js? Click the show components link below.</p>
+                        </div>
+
+                        <div class="col card service_block" data-service_block="1">
+                            <p>
+                                <img src="images/s2.png" alt="Gate Welding">
+                            </p>
+                            <h3>Gate Welding</h3>
+                            <p>Curious which components explicitly require jQuery, our JS, and Popper.js? Click the show components link below.</p>
+                        </div>
+
+                        <div class="col card service_block" data-service_block="4">
+                            <p>
+                                <img src="images/s3.png" alt="Window Welding">
+                            </p>
+                            <h3>Window Welding</h3>
+                            <p>Curious which components explicitly require jQuery, our JS, and Popper.js? Click the show components link below.</p>
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+
+                        <div class="col card service_block" data-service_block="3">
+                            <p>
+                                <img src="images/s4.png" alt="Machine Welding">
+                            </p>
+                            <h3>Machine Welding</h3>
+                            <p>Curious which components explicitly require jQuery, our JS, and Popper.js? Click the show components link below.</p>
+                        </div>
+
+                        <div class="col card service_block" data-service_block="2">
+                            <p>
+                                <img src="images/s5.png" alt="Bike Welding">
+                            </p>
+                            <h3>Bike Welding</h3>
+                            <p>Curious which components explicitly require jQuery, our JS, and Popper.js? Click the show components link below.</p>
+                        </div>
+
+                        <div class="col card service_block" data-service_block="2">
+                            <p>
+                                <img src="images/s6.png" alt="Car Welding">
+                            </p>
+                            <h3>Car Welding</h3>
+                            <p>Curious which components explicitly require jQuery, our JS, and Popper.js? Click the show components link below.</p>
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+                        <div class="col service_block">
+                            <p>
+                                <a class="btn btn-warning 1" href="#" role="button">Read More</a>
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+          
+            </div>
+
+        </main>
+
+        <aside>
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col">
+                        <h2 class=" heading">Get In <span>Touch</span></h2>
+                    </div>
+
+                </div>
+
+                <div class="row">
+
+                    <div class="col contact">
+
+                        <form action="">
+
+                            <div class="row mb-4">
+                                <div class="col">
+                                    <input class="form-control form-control" type="text" placeholder="Your name">
+                                </div>
+                            </div>
+
+
+                            <div class="row mb-4">
+                                <div class="col">
+                                  <input type="text" class="form-control" placeholder="Phone number">
+                                </div>
+                                <div class="col">
+                                  <select class="form-control">
+                                    <option>Select Service</option>
+                                    <option>Home Welding</option>
+                                    <option>Gate Welding</option>
+                                    <option>Window Welding</option>
+                                  </select>
+                                </div>
+                            </div>
+
+                            <div class="row mb-4">
+                                <div class="col">
+                                    <input class="form-control" type="email" placeholder="Email">
+                                </div>
+                            </div>
+
+                            <div class="row mb-4">
+                                <div class="col">
+                                    <textarea class="form-control" id="" cols="30" rows="3" placeholder="Message"></textarea>
+                                </div>
+                            </div>
+
+                            <button class="btn btn-warning">Send</button>
+
+                        </form>
+
+                    </div>
+
+                    <div class="col map">MAP</div>
+
+                </div>
+
+                <div class="row mt-5 pt-5">
+                    <div class="col">
+                        <h2 class="heading">Testimonial</h2>
+                    </div>
+                </div>
+
+                <div class="row feedbacks">
+                    <div class="col-2 client-image">
+
+                        <figure>
+                            <img src="images/client.jpg" alt="client">
+                            <figcaption>Alex Jonson</figcaption>
+                        </figure>
+
+                    </div>
+                    <div class="col-8 client-text">
+                        <p>Be sure to have your pages set up with the latest design and development standards. That means using an HTML5 doctype and including a viewport meta tag for proper responsive behaviors. Bootstrap is developed mobile first, a strategy in which we optimize code for mobile devices first and then scale up components as necessary using CSS media queries. To ensure proper rendering and touch zooming for all devices.</p>
+                    </div>
+                    <div class="col-2 feed-nav">
+                        <ul>
+                            <li class="current"></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+        </aside>
+
+        <footer>
+
+            <div class="info">
+
+                <div class="container">
+    
+                    <div class="row">
+                        <div class="col">
+                            <h2 class="logo">Demo <span>Website</span></h2>
+                        </div>
+                    </div>
+    
+                    <div class="row footer-content">
+    
+                        <div class="col">
+
+                            <h3 class="label">Useful Link</h3>
+
+                            <ul class="links">
+                                <li>
+                                    <a href="#">Home</a>
+                                </li>
+                                <li>
+                                    <a href="#">About</a>
+                                </li>
+                                <li>
+                                    <a href="#">Services</a>
+                                </li>
+                                <li>
+                                    <a href="#">Portfolio</a>
+                                </li>
+                                <li>
+                                    <a href="#">Contact</a>
+                                </li>
+                            </ul>
+
+                        </div>
+                        
+                        <div class="col">
+
+                            <h3 class="label">Welding</h3>
+
+                            <p>Be sure to have your pages set up with the latest design.</p>
+
+                            <p>We are using HTML5 doctype</p>
+
+                        </div>
+    
+                        <div class="col">
+
+                            <h3 class="label">Social Media</h3>
+
+                            <div class="social-icons">
+
+                                <a href="#" class="link">
+                                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                                </a>
+
+                                <a href="#" class="link">
+                                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                                </a>
+
+                                <a href="#" class="link">
+                                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                </a>
+
+                                <a href="#" class="link">
+                                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                                </a>
+
+                            </div>
+
+                        </div>
+    
+                        <div class="col">
+                            <h3 class="label">Our Welding Center</h3>
+
+                            <p>Be sure to have your pages set up with the latest design.</p>
+
+                            <p>We are using HTML5 doctype</p>
+                        </div>
+    
+                    </div>
+    
+                    <div class="row contacts">
+
+                        <div class="col">
+                            <span class="icon">
+                                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                            </span>
+                            <span class="text">Location</span>
+                        </div>
+
+                        <div class="col">
+                            <span class="icon">
+                                <i class="fa fa-phone" aria-hidden="true"></i>
+                            </span>
+                            <span class="text">Call +912365897</span>
+                        </div>
+
+                        <div class="col">
+                            <span class="icon">
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                            </span>
+                            <span class="text">demo@gmail.com</span>
+                        </div>
+
+                        <div class="col">
+                            <form action="" class="subscribe" method="post">
+                                <p>
+                                    <input type="text" name="email" placeholder="Enter Your Email"><button type="submit"><i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+                                </p>
+                            </form>
+                        </div>
+
+                    </div>
+                
+                </div>
+
+            </div>
+
+            <div class="legal">
+                
+                <div class="container">
+    
+                    <div class="row">
+                        <div class="col">
+                            <p>Copy right &copy; 2024. All rights reserved</p>
+                        </div>
+                    </div>
+    
+                </div>
+
+            </div>
+
+
+            <div class="modal fade" id="loginModel" tabindex="-1" role="dialog" aria-hidden="true">
+                
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Enter Login Details</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <form id="login" method="post">
+                                <div class="form-group">
+                                    <label for="email">Email</label>
+                                    <input type="text" class="form-control" id="email" name="email">
+                                </div>
+                                <div class="form-group">
+                                    <label for="password">Password</label>
+                                    <input type="password" class="form-control" id="password" name="password">
+                                </div>
+                                <div class="form-group">
+                                    <button type="submit" class="btn btn-primary float-right">Login</button>
+                                </div>
+                            </form>
+                        </div>                    
+                    </div>
+
+                </div>
+
+            </div>
+
+        </footer>
+
+   </div>
+    
+   <script type="text/javascript" src="js/script.js"></script>
+
+</body>
+</html>
